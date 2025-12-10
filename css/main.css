@@ -2582,6 +2582,14 @@ input, select, textarea {
 		margin-top: 8%;
 					
 	}
+	.iProduct{
+		width: 200px;
+		height: 200px;
+		border-radius: 100px;
+		margin-left: 12%;
+		margin-bottom: 11%;
+
+	}
 	.image {
 		border-radius: 0.25em;
 		border: 0;
