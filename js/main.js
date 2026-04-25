@@ -1,9 +1,3 @@
-/*
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 (function($) {
 
 	var	$window = $(window),
@@ -137,13 +131,13 @@
 				bottom: '-10vh',
 				initialize: function() {
 
-					// Deactivate section.
+					//Deactivate section.
 						$(this).addClass('inactive');
 
 				},
 				enter: function() {
 
-					// Activate section.
+					//activate section.
 						$(this).removeClass('inactive');
 
 				}
