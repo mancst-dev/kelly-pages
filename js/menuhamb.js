@@ -11,18 +11,18 @@ document.addEventListener('DOMContentLoaded', function() {
         if (menuToggle) {
             menuToggle.addEventListener('click', function(e) {
                 e.preventDefault();
-                toggleMenu(); // Abre el menú
+                toggleMenu();
             });
         }
         
         if (menuClose) {
              menuClose.addEventListener('click', function(e) {
                 e.preventDefault();
-                toggleMenu(); // Cierra el menú
+                toggleMenu();
             });
         }
         
-        // El resto del código para cerrar al hacer clic en enlaces o fuera del menú sigue siendo el mismo:
+        //cerrar al clic en enlaces o fuera del menu
         var sidebarLinks = document.querySelectorAll('#sidebar nav a');
         sidebarLinks.forEach(function(link) {
             link.addEventListener('click', function() {
